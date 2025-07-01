@@ -1,0 +1,6 @@
+{
+  "package_name": "arduinobot_msgs",
+  "non_idl_tuples": [
+    "/home/yoga-slim-pro-2/robotarm_ws/src/arduinobot_msgs:action/ArduinobotTask.action"
+  ]
+}

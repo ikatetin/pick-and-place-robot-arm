@@ -1,0 +1,22 @@
+[1.648s] Invoking command in '/home/yoga-slim-pro-2/robotarm_ws/src/arduinobot_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_python build --build-base /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build install --record /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/install.log --single-version-externally-managed install_data
+[2.331s] running egg_info
+[2.377s] writing ../../build/arduinobot_python/arduinobot_python.egg-info/PKG-INFO
+[2.377s] writing dependency_links to ../../build/arduinobot_python/arduinobot_python.egg-info/dependency_links.txt
+[2.378s] writing entry points to ../../build/arduinobot_python/arduinobot_python.egg-info/entry_points.txt
+[2.378s] writing requirements to ../../build/arduinobot_python/arduinobot_python.egg-info/requires.txt
+[2.378s] writing top-level names to ../../build/arduinobot_python/arduinobot_python.egg-info/top_level.txt
+[2.469s] reading manifest file '../../build/arduinobot_python/arduinobot_python.egg-info/SOURCES.txt'
+[2.471s] writing manifest file '../../build/arduinobot_python/arduinobot_python.egg-info/SOURCES.txt'
+[2.471s] running build
+[2.471s] running build_py
+[2.472s] running install
+[2.483s] running install_lib
+[2.530s] running install_data
+[2.530s] running install_egg_info
+[2.575s] removing '/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python-0.0.0-py3.12.egg-info' (and everything under it)
+[2.576s] Copying ../../build/arduinobot_python/arduinobot_python.egg-info to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python-0.0.0-py3.12.egg-info
+[2.577s] running install_scripts
+[2.870s] Installing camera_node script to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/arduinobot_python
+[2.870s] Installing yolo_node script to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/arduinobot_python
+[2.870s] writing list of installed files to '/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/install.log'
+[3.011s] Invoked command in '/home/yoga-slim-pro-2/robotarm_ws/src/arduinobot_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_python build --build-base /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build install --record /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/install.log --single-version-externally-managed install_data

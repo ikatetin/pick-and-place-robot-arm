@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_core/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/yolov8_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/yolo8_detector/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_python/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_core/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/yolov8_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/yolo8_detector/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_remote/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_python/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

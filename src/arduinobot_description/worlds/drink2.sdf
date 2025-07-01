@@ -1,0 +1,230 @@
+<sdf version='1.10'>
+  <world name='empty'>
+    <physics name='1ms' type='ignored'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <plugin name='gz::sim::systems::Physics' filename='gz-sim-physics-system'/>
+    <plugin name='gz::sim::systems::UserCommands' filename='gz-sim-user-commands-system'/>
+    <plugin name='gz::sim::systems::SceneBroadcaster' filename='gz-sim-scene-broadcaster-system'/>
+    <plugin name='gz::sim::systems::Contact' filename='gz-sim-contact-system'/>
+    <gravity>0 0 -9.8000000000000007</gravity>
+    <magnetic_field>5.5644999999999998e-06 2.2875799999999999e-05 -4.2388400000000002e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <scene>
+      <ambient>0.400000006 0.400000006 0.400000006 1</ambient>
+      <background>0.699999988 0.699999988 0.699999988 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <model name='ground_plane'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.800000012 0.800000012 0.800000012 1</ambient>
+            <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+            <specular>0.800000012 0.800000012 0.800000012 1</specular>
+          </material>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='coke_can_2'>
+      <link name='link'>
+        <inertial>
+          <pose>-0.01 -0.012 0.14999999999999999 0 0 0</pose>
+          <mass>0.39000000000000001</mass>
+          <inertia>
+            <ixx>0.00058</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00058</iyy>
+            <iyz>0</iyz>
+            <izz>0.00019000000000000001</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <pose>0 0 -0.46000000000000002 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/coke can/3/files/meshes/coke_can.dae</uri>
+              <scale>0.80000000000000004 0.80000000000000004 0.80000000000000004</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <kp>10000000</kp>
+                <kd>1</kd>
+                <min_depth>0.001</min_depth>
+                <max_vel>0.10000000000000001</max_vel>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <pose>0 0 -0.46000000000000002 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/coke can/3/files/meshes/coke_can.dae</uri>
+              <scale>0.80000000000000004 0.80000000000000004 0.80000000000000004</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>0.35445955783224781 1.4709109998704371 0.09887886417098346 -0.011198869223969119 0.0040273374073517814 -7.686821449719214e-05</pose>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='Target_Basket_Medium'>
+      <link name='link_0'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>file:///home/yoga-slim-pro-2/.gz/fuel/fuel.gazebosim.org/googleresearch/models/target_basket_medium/1/meshes/model.obj</uri>
+              <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision_0'>
+          <geometry>
+            <mesh>
+              <uri>file:///home/yoga-slim-pro-2/.gz/fuel/fuel.gazebosim.org/googleresearch/models/target_basket_medium/1/meshes/model.obj</uri>
+              <scale>3 3 3</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <pose>0 0 0 0 0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>-1.5038073062896729 0.00088873202912509441 0.0061373449862003326 -0.00078955124154337101 0.013139083594557155 1.565983611775936</pose>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+    <model name='coke_can_2_2'>
+      <link name='link'>
+        <inertial>
+          <pose>-0.01 -0.012 0.14999999999999999 0 0 0</pose>
+          <mass>0.39000000000000001</mass>
+          <inertia>
+            <ixx>0.00058</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00058</iyy>
+            <iyz>0</iyz>
+            <izz>0.00019000000000000001</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <pose>0 0 -0.46000000000000002 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/coke can/3/files/meshes/coke_can.dae</uri>
+              <scale>0.80000000000000004 0.80000000000000004 0.80000000000000004</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <kp>10000000</kp>
+                <kd>1</kd>
+                <min_depth>0.001</min_depth>
+                <max_vel>0.10000000000000001</max_vel>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <pose>0 0 -0.46000000000000002 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/coke can/3/files/meshes/coke_can.dae</uri>
+              <scale>0.80000000000000004 0.80000000000000004 0.80000000000000004</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <pose>0 0 0 0 0 0</pose>
+        <enable_wind>false</enable_wind>
+      </link>
+      <pose>-0.11471388458600268 1.8128727673317917 0.098870993781834837 -0.011169048281020834 0.0040222497297522641 -5.5794612171556727e-05</pose>
+      <static>false</static>
+      <self_collide>false</self_collide>
+    </model>
+   
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.10000000000000001 -0.90000000000000002</direction>
+      <diffuse>0.800000012 0.800000012 0.800000012 1</diffuse>
+      <specular>0.200000003 0.200000003 0.200000003 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.90000000000000002</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+  </world>
+</sdf>

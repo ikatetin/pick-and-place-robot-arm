@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-55b952a89a4a645c0e7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_remote",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_remote_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_remote_egg-8e758fbde80c2e186173.json",
+					"name" : "ament_cmake_python_build_arduinobot_remote_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduinobot_remote::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduinobot_remote-815308741a9615daf60e.json",
+					"name" : "ament_cmake_python_copy_arduinobot_remote",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_remote_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_remote_uninstall-853e4aa781721bb67321.json",
+					"name" : "arduinobot_remote_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server-56ccdbd0273cbc6eb069.json",
+					"name" : "task_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server_ik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server_ik-f2b7fead931b29ce1691.json",
+					"name" : "task_server_ik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server_ik_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server_ik_node-0c7127579d518c79e51a.json",
+					"name" : "task_server_ik_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server_node-b90650a504eb1ee32989.json",
+					"name" : "task_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-378c8d56e42ee51f2fd5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_remote",
+		"source" : "/home/yoga-slim-pro-2/robotarm_ws/src/arduinobot_remote"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

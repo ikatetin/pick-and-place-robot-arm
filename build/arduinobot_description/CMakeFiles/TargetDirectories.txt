@@ -1,0 +1,9 @@
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/uninstall.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/arduinobot_description_uninstall.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/test.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/edit_cache.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/rebuild_cache.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/list_install_components.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/install.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/install/local.dir
+/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_description/CMakeFiles/install/strip.dir

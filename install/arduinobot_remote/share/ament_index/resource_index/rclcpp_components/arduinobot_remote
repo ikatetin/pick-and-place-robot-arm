@@ -1,0 +1,2 @@
+arduinobot_remote::TaskServer;lib/libtask_server.so
+arduinobot_remote_ik::TaskServerIK;lib/libtask_server_ik.so

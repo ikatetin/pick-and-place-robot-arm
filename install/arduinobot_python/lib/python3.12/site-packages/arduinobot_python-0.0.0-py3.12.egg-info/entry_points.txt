@@ -1,0 +1,3 @@
+[console_scripts]
+camera_node = arduinobot_python.camera_node:main
+yolo_node = arduinobot_python.yolo_node:main

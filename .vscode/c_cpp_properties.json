@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_msgs/include/**",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_visualization/include/**",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_demo/include/**",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_core/include/**",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/rviz_marker_tools/include/**",
+        "/home/yoga-slim-pro-2/ws_moveit2/install/moveit_task_constructor_msgs/include/**",
+        "/home/yoga-slim-pro-2/arduinobot_ws/install/arduinobot_msgs/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

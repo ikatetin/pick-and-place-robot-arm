@@ -1,0 +1,10 @@
+# Goal         
+int32 task_number
+float64[] arm_goal
+float64[] gripper_goal
+---
+# Result
+bool success
+---
+# Feedback
+int32 percentage

@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "arduinobot_msgs/action/ArduinobotTask_Goal",
+      "fields": [
+        {
+          "name": "task_number",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "arm_goal",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "gripper_goal",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "arduinobot_msgs/action/ArduinobotTask_Goal",
+      "hash_string": "RIHS01_307d760fb0268237dcde0dc277432f497d1c1db98b5a24cf6efdb48c8f3fd41a"
+    }
+  ]
+}

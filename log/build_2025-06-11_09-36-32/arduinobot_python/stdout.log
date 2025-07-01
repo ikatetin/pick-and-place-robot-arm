@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/arduinobot_python/arduinobot_python.egg-info
+writing ../../build/arduinobot_python/arduinobot_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduinobot_python/arduinobot_python.egg-info/dependency_links.txt
+writing entry points to ../../build/arduinobot_python/arduinobot_python.egg-info/entry_points.txt
+writing requirements to ../../build/arduinobot_python/arduinobot_python.egg-info/requires.txt
+writing top-level names to ../../build/arduinobot_python/arduinobot_python.egg-info/top_level.txt
+writing manifest file '../../build/arduinobot_python/arduinobot_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/arduinobot_python/arduinobot_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduinobot_python/arduinobot_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build
+creating /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib
+creating /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python
+copying arduinobot_python/camera_node.py -> /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python
+copying arduinobot_python/yolo_node.py -> /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python
+copying arduinobot_python/__init__.py -> /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python
+running install
+running install_lib
+creating /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python
+copying /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python/camera_node.py -> /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python
+copying /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python/yolo_node.py -> /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python
+copying /home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/build/lib/arduinobot_python/__init__.py -> /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python
+byte-compiling /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python/camera_node.py to camera_node.cpython-312.pyc
+byte-compiling /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python/yolo_node.py to yolo_node.cpython-312.pyc
+byte-compiling /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/share/ament_index
+creating /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/share/ament_index/resource_index
+creating /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/share/ament_index/resource_index/packages
+copying resource/arduinobot_python -> /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/share/ament_index/resource_index/packages
+copying package.xml -> /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/share/arduinobot_python
+running install_egg_info
+Copying ../../build/arduinobot_python/arduinobot_python.egg-info to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/python3.12/site-packages/arduinobot_python-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_node script to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/arduinobot_python
+Installing yolo_node script to /home/yoga-slim-pro-2/robotarm_ws/install/arduinobot_python/lib/arduinobot_python
+writing list of installed files to '/home/yoga-slim-pro-2/robotarm_ws/build/arduinobot_python/install.log'
